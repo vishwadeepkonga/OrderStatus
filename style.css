@@ -1,0 +1,55 @@
+
+.PizzaDeliveryBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://us.123rf.com/450wm/milkos/milkos1808/milkos180801303/107130436-slices-of-pizza-with-prosciutto-and-spices-on-black-background-copy-space-top-view.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-1 img{
+width: 100px;
+align-content: center;
+margin-bottom: 10px;
+
+}
+.section-1 .input-group{
+    width: 500px;
+
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-2 button{
+    width: 500px;
+    border-radius: 12px;
+    border: 1px solid rgb(136, 112, 112);
+margin-top: 5px;
+}
+.section-2 p{
+    display: none;
+    color: black;
+    background-color: white;
+    font-style:oblique;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
